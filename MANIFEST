@@ -1,0 +1,9 @@
+Changes
+INSTALL
+lib/JSAN/Parse/FileDeps.pm
+Build.PL
+MANIFEST
+META.yml
+README
+t/use.t
+t/lib/foo.js
