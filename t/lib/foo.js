@@ -1,5 +1,7 @@
 JSAN.use( "Foo" );
+JSAN.use('Foo.Bar', 'symbol' );
 
 //__CODE__
 
-Foo.Bar = {};
+foo = {};
+foo.VERSION = '0.01';

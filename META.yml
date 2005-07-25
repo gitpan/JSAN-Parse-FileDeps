@@ -1,8 +1,15 @@
---- #YAML:1.0
+---
 name: JSAN-Parse-FileDeps
-version: 0.01
+version: 0.02
 author:
-  - Rob Kinyon <rob.kinyon@iinteractive.com>
-abstract: This will parse out _deps.js from each file
+  - Adam Kennedy <cpan@ali.as>
+abstract: Parse file-level dependencies from JSAN modules
 license: perl
-generated_by: Module::Build version 0.2607, without YAML.pm
+requires:
+  File::Spec: 0.80
+  perl: 5.005
+provides:
+  JSAN::Parse::FileDeps:
+    file: lib/JSAN/Parse/FileDeps.pm
+    version: 0.02
+generated_by: Module::Build version 0.2611

@@ -1,3 +1,6 @@
-2005-07-22    0.01
+0.02 2005-07-26
+	- Expanding original out to handle more functions, and return
+	  the deps as library names or file names.
 
-  - Initial release.
+0.01 2005-07-22    
+	- Initial release.
