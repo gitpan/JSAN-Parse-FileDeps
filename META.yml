@@ -1,6 +1,6 @@
 ---
 name: JSAN-Parse-FileDeps
-version: 0.02
+version: 0.03
 author:
   - Adam Kennedy <cpan@ali.as>
 abstract: Parse file-level dependencies from JSAN modules
@@ -11,5 +11,5 @@ requires:
 provides:
   JSAN::Parse::FileDeps:
     file: lib/JSAN/Parse/FileDeps.pm
-    version: 0.02
+    version: 0.03
 generated_by: Module::Build version 0.2611

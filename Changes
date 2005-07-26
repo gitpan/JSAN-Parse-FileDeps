@@ -1,3 +1,6 @@
+0.03 2005-07-26
+	- Adding support for JSAN.require
+
 0.02 2005-07-26
 	- Expanding original out to handle more functions, and return
 	  the deps as library names or file names.
