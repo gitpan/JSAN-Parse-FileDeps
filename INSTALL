@@ -1,2 +1,0 @@
-  shell> perl -MCPAN -e'install "JSAN-Parse-FileDeps"'
-

@@ -3,6 +3,22 @@
 # Compile testing for JSAN::Parse::FileDeps
 
 use strict;
+use lib ();
+use File::Spec::Functions ':ALL';
+BEGIN {
+	$| = 1;
+	unless ( $ENV{HARNESS_ACTIVE} ) {
+		require FindBin;
+		$FindBin::Bin = $FindBin::Bin; # Avoid a warning
+		chdir catdir( $FindBin::Bin, updir() );
+		lib->import(
+			catdir('blib', 'lib'),
+			catdir('blib', 'arch'),
+			'lib',
+			);
+	}
+}
+
 use Test::More tests => 2;
 
 # Check their perl version
